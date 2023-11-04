@@ -1,0 +1,121 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    width: 80%;
+}
+
+header p {
+    font-style: italic;
+    font-size: x-large;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+strong {
+    color: rgb(179, 178, 178)
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+}
+
+main p{
+    display: flex;
+    font-size: 18pt;
+    gap: 10px;
+    color:grey;
+    text-indent: 50pt;
+    padding: 15px;
+}
+
+.pizzaImage img {
+    width:100%;
+}
+/* figure img{
+    width: 80%;
+} */
+
+/* ul {
+    font-size: 18pt;
+    display: inline-flex;
+    float: left;
+} */
+
+.recipe-container {
+    position: relative;
+    display: inline-block;
+    margin: 20pt;
+}
+  
+.recipe-container img {
+    display: blockfle;
+    width: 100%;
+    height: auto;
+}
+  
+.ingredients {
+    height: 200px ;
+    width: 400px;
+    position:absolute ;
+    left: 30%; 
+    top: 40%;
+    transform: translate(-50%, -50%);  
+    padding: 1px 2px; 
+    font-size: 16pt; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: left;
+    column-count: 2;
+    column-gap: 40px;
+    column-width: 400px;
+}
+
+.author {
+    margin: 50pt;
+    font-size: 18pt;
+    color:grey;
+}
+
+.authorpic {
+    float:left;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+button {
+    background-color: rgb(214, 125, 36);
+    color:white;
+    height: 40px;
+    width: 200px;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    float:right ;
+}
+
+button a:link{
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+button a:visited {
+    color: white;
+}
+
+footer {
+    color: rgb(179, 178, 178);
+    text-align: center;
+}
